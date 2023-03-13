@@ -24,7 +24,7 @@ Email: kby-ai@outlook.com
 
 Telegram: kbyai
 
-WahtsApp: +19092802609
+WhatsApp: +19092802609
 ```
 
 ## About SDK
