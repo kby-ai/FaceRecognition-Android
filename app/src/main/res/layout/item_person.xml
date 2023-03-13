@@ -1,0 +1,67 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app =  "http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="80dp" >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:cardCornerRadius = "8dp"
+        app:cardBackgroundColor="@color/background1"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardFace"
+                app:cardElevation = "16dp"
+                app:cardCornerRadius = "140dp"
+                android:foregroundGravity = "center"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="16dp"
+                android:layout_centerInParent = "true"
+                android:layout_width = "60dp"
+                android:layout_height = "60dp"
+                android:layout_alignParentLeft="true"
+                >
+
+                <ImageView
+                    android:id="@+id/imageFace"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:scaleType = "centerCrop"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/cardFace"
+                />
+
+            <ImageButton
+                android:id="@+id/buttonDelete"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="12dp"
+                android:background="@color/background1"
+                app:srcCompat="@drawable/ic_delete"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout  >

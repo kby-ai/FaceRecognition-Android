@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">FaceRecognition</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="camera">Camera</string>
+    <string name="thresholds">Thresholds</string>
+    <string name="reset">Reset</string>
+
+    <!-- Messages Preferences -->
+    <string name="camera_lens">Camera lens</string>
+    <string name="liveness_threshold">Liveness threshold</string>
+    <string name="identify_threshold">Identify threshold</string>
+    <string name="restore_default_settings">Restore default settings</string>
+    <string name="clear_all_person">Clear all person</string>
+
+    <string name="select_picture">Select Picture</string>
+
+    <string name="multiple_face_detected">Multiple face detected!</string>
+    <string name="no_face_detected">No face detected!</string>
+    <string name="person_enrolled">Person enrolled!</string>
+    <string name="liveness_check_failed">Liveness check failed!</string>
+    <string name="restored_default_settings">Restored default settings</string>
+    <string name="cleared_all_person">Cleared all person</string>
+    <string name="invalid_value">Invalid value</string>
+
+</resources>

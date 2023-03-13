@@ -1,0 +1,51 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_camera"
+        app:title="@string/camera"
+        >
+
+        <ListPreference
+            app:defaultValue="front"
+            app:entries="@array/camera_lens"
+            app:entryValues="@array/camera_lens_values"
+            app:key="camera_lens"
+            app:title="@string/camera_lens"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_threshold"
+        app:title="@string/thresholds">
+
+        <EditTextPreference
+            app:defaultValue="0.7"
+            app:key="liveness_threshold"
+            app:title="@string/liveness_threshold"
+            app:useSimpleSummaryProvider="true"
+            />
+
+        <EditTextPreference
+            app:defaultValue="0.8"
+            app:key="identify_threshold"
+            app:title="@string/identify_threshold"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_reset"
+        app:title="@string/reset">
+
+        <Preference
+            app:key="restore_default_settings"
+            app:title="@string/restore_default_settings" />
+
+        <Preference
+            app:key="clear_all_person"
+            app:title="@string/clear_all_person" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
