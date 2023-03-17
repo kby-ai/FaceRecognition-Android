@@ -22,7 +22,7 @@ The face recognition project relies on kby-ai's SDK, which requires a license fo
 ```
 Email: kby-ai@outlook.com
 
-Telegram: kbyai
+Telegram: @kbyai
 
 WhatsApp: +19092802609
 ```
