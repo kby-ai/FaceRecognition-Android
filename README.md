@@ -24,7 +24,7 @@ The face recognition project relies on kby-ai's SDK, which requires a license fo
 
 - To request a license, please contact us:
 ```
-Email: kby-ai@outlook.com
+Email: contact@kby-ai.com
 
 Telegram: @kbyai
 
