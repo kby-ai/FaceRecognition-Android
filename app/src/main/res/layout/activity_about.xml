@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:gravity="center"
-        android:text="About KBY-AI"
+        android:text="KBY-AI Technology"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:layout_marginTop="16dp"
         app:layout_constraintTop_toTopOf="parent">
@@ -23,10 +23,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical | left"
-        android:text=" KBY-AI offers SDKs for face recognition, liveness detection, and id document recognition.\n\n
-Our expertise lies in machine learning, with a focus on computer vision technologies such as license plate recognition, super resolution, image segmentation, palm vein/print recognition, and object detection.\n\n
-Our experienced team is skilled in developing deep learning products, improving their accuracy, and optimizing their speed on mobile and embedded devices.\n\n
-We are actively seeking opportunities to develop machine learning technologies and also offer Android/iOS app development and web application development services.\n\n\n
+        android:text=" We are a leading provider of SDKs for advanced biometric authentication technology, including face recognition, liveness detection, and ID card recognition.\n\n
+In addition to biometric authentication solutions, we provide software development services for computer vision, mobile applications, and UI/UX design.\n\n
+With our team's extensive knowledge and proficiency in these areas, we can deliver exceptional results to our clients.\n\n
+If you're interested in learning more about how we can help you, please don't hesitate to get in touch with us today.\n\n\n
 Please contact us:"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
