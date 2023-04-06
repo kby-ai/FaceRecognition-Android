@@ -173,10 +173,10 @@
         android:textSize="14dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        app:layout_constraintEnd_toEndOf="@+id/listView"
-        app:layout_constraintStart_toStartOf="@+id/listView"
-        app:layout_constraintTop_toTopOf="@+id/listView"
-        app:layout_constraintBottom_toBottomOf="@+id/listView"
+        app:layout_constraintEnd_toEndOf="@+id/listPerson"
+        app:layout_constraintStart_toStartOf="@+id/listPerson"
+        app:layout_constraintTop_toTopOf="@+id/listPerson"
+        app:layout_constraintBottom_toBottomOf="@+id/listPerson"
         >
 
     </TextView>
