@@ -12,7 +12,13 @@ The demonstration showcases the capability to enroll individuals from photo gall
 
 ## Try the APK
 
-You can test the demo APK by following the link below:
+### Google Play
+
+<a href="https://play.google.com/store/apps/details?id=com.kbyai.facerecognition" target="_blank">
+  <img alt="" src="https://user-images.githubusercontent.com/125717930/230804673-17c99e7d-6a21-4a64-8b9e-a465142da148.png" height=80/>
+</a>
+
+### Google Drive
 
 https://drive.google.com/file/d/1cn_89fYDYhq8ANXs2epO-KBv7p5ZnWcA/view?usp=sharing
 
