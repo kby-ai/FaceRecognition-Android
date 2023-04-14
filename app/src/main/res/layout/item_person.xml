@@ -22,7 +22,6 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardFace"
                 app:cardElevation = "16dp"
-                app:cardCornerRadius = "140dp"
                 android:foregroundGravity = "center"
                 android:layout_marginTop="1dp"
                 android:layout_marginLeft="16dp"

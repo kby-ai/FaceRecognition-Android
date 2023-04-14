@@ -55,7 +55,7 @@
                 android:layout_toRightOf="@+id/imageNotice"
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
-                android:text="We are a leading provider of SDKs for advanced biometric authentication technology, including face recognition, liveness detection, and ID card recognition."></TextView>
+                android:text="We offer SDKs for face recognition, liveness detection, and ID card recognition."></TextView>
         </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
