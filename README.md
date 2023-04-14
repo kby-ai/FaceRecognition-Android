@@ -125,3 +125,8 @@ To determine the appropriate conversion mode, the following method can be used:
  88          88      88  88
  88          88  888888  888888
 ```
+
+# References
+
+- [Face Liveness Detection - Android](https://github.com/kby-ai/FaceLivenessDetection-Android)
+- [Face Liveness Detection - iOS](https://github.com/kby-ai/FaceLivenessDetection-iOS)
