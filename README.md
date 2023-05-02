@@ -21,7 +21,12 @@ The demo project demonstrates both Face Liveness Detection and Face Recognition 
   |         |         | Face Occlusion Detection |
   |         |         | Eye Closure Detection |
   |         |         | Age, Gender Estimation |
-  
+
+> - [Face Liveness Detection - Android(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-Android)
+> - [Face Liveness Detection - iOS(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-iOS)
+> - [Face Recognition - iOS(Standard SDK)](https://github.com/kby-ai/FaceRecognition-iOS)
+> - [Face Attribute - Android(Premimum SDK)](https://github.com/kby-ai/FaceAttribute-Android)
+
 ## Try the APK
 
 ### Google Play
@@ -154,11 +159,4 @@ To determine the appropriate conversion mode, the following method can be used:
  88          88      88  88
  88          88  888888  888888
 ```
-
-# References
-
-- [Face Liveness Detection - Android](https://github.com/kby-ai/FaceLivenessDetection-Android)
-- [Face Liveness Detection - iOS](https://github.com/kby-ai/FaceLivenessDetection-iOS)
-- [Face Recognition - iOS](https://github.com/kby-ai/FaceRecognition-iOS)
-- [Face Attribute - Android](https://github.com/kby-ai/FaceAttribute-Android)
 
