@@ -6,9 +6,7 @@
 
 ## Introduction
 
-The system utilizes Face Liveness Detection technology to generate a real-time liveness score based on a single image captured by the camera. 
-
-Additionally, the demo offers Face Recognition capabilities, enabling enrollment from a gallery and real-time identification of faces captured by the camera.
+The demo project demonstrates both Face Liveness Detection and Face Recognition Technology.
 
 > The demo is integrated with KBY-AI's Standard Face SDK.
 
