@@ -6,7 +6,11 @@
 
   - [FaceLivenessDetection-Docker](https://github.com/kby-ai/FaceLivenessDetection-Docker)
 
+  - [FaceLivenessDetection-Windows](https://github.com/kby-ai/FaceLivenessDetection-Windows)
+
   - [FaceRecognition-Docker](https://github.com/kby-ai/FaceRecognition-Docker)
+
+  - [FaceRecognition-Windows](https://github.com/kby-ai/FaceRecognition-Windows)
 
   - [IDCardRecognition-Docker](https://github.com/kby-ai/IDCardRecognition-Docker)
 
