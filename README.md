@@ -97,7 +97,7 @@ Skype: live:.cid.66e2522354b1049b
 
 ## About SDK
 
-### Set up
+### 1. Set up
 1. Copy the SDK (libfacesdk folder) to the root folder of your project.
 
 2. Add SDK to the project in settings.gradle
@@ -110,7 +110,7 @@ include ':libfacesdk'
 implementation project(path: ':libfacesdk')
 ```
 
-### Initializing an SDK
+### 2. Initializing an SDK
 
 - Step One
 
@@ -129,16 +129,33 @@ FaceSDK.init(getAssets());
 ```
 If initialization is successful, the return value will be SDK_SUCCESS. Otherwise, an error value will be returned.
 
-### Face Detection and Liveness Detection
+### 3. SDK Classes
+  - FaceDetectionParam
+  
+    This class serves as the input parameter for face detection, allowing the inclusion of face liveness detection and specifying the desired liveness detection level.
 
-The FaceSDK offers a single function for detecting face and liveness detection, which can be used as follows:
+    | Feature| Type | Name |
+    |------------------|------------------|------------------|
+    | Check liveness        | boolean    | check_liveness |
+    | Check liveness level        | int    | check_liveness_level |
+
+    When check_liveness_level is set to 0, the liveness detection achieves high accuracy.
+    When check_liveness_level is set to 1, the liveness detection operates with light weight.
+
+### 4. APIs
+#### - Face Detection and Liveness Detection
+
+The FaceSDK offers a single function for detecting faces, allowing the inclusion of face liveness detection and specifying the desired liveness detection level.
 ```
-FaceSDK.faceDetection(bitmap)
+FaceSDK.faceDetection(bitmap, param)
 ```
 
-This function takes a single parameter, which is a bitmap object. The return value of the function is a list of FaceBox objects. Each FaceBox object contains the detected face rectangle, liveness score, and facial angles such as yaw, roll, and pitch.
+This function requires two parameters: a Bitmap object and a FaceDetectionParam object that enables various processing functionalities.
 
-### Create Templates
+The return value of the function is a list of FaceBox objects. Each FaceBox object contains the detected face rectangle, liveness score, and facial angles such as yaw, roll, and pitch.
+
+
+#### - Create Templates
 
 The FaceSDK provides a function that can generate a template from a bitmap image. This template can then be used to verify the identity of the individual captured in the image.
 
@@ -150,17 +167,17 @@ The SDK's template extraction function takes two parameters: a bitmap object and
 
 The function returns a byte array, which contains the template that can be used for person verification.
 
-### Calculation similiarity
+#### - Calculation similarity
 
 The "similarityCalculation" function takes a byte array of two templates as a parameter. 
 
 ```
-float similarity = FaceSDK.similarityCalucation(templates1, templates1);
+float similarity = FaceSDK.similarityCalculation(templates1, templates1);
 ```
 
 It returns the similarity value between the two templates, which can be used to determine the level of likeness between the two individuals.
 
-### Yuv to Bitmap
+#### - Yuv to Bitmap
 The SDK provides a function called yuv2Bitmap, which converts a yuv frame to a bitmap. Since camera frames are typically in yuv format, this function is necessary to convert them to bitmaps. The usage of this function is as follows:
 ```
 Bitmap bitmap = FaceSDK.yuv2Bitmap(nv21, image.getWidth(), image.getHeight(), 7);
