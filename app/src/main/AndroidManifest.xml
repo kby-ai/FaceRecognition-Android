@@ -16,6 +16,9 @@
         android:theme="@style/Theme.FaceRecognition"
         tools:targetApi="31">
         <activity
+            android:name=".CameraActivityKt"
+            android:exported="false" />
+        <activity
             android:name=".ResultActivity"
             android:exported="false" />
         <activity

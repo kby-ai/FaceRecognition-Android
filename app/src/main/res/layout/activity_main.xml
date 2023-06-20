@@ -132,22 +132,13 @@
 
         <ImageView
             android:id="@+id/imageBrand"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_marginBottom="4dp"
             app:srcCompat="@drawable/ic_kby"
             >
         </ImageView>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:gravity="center_vertical"
-            android:text="KBY-AI Technology"
-            android:layout_marginLeft="0dp"
-            android:textColor="@color/md_theme_light_onSurfaceVariant"
-            >
-
-        </TextView>
     </LinearLayout>
 
     <ListView

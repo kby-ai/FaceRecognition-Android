@@ -14,6 +14,7 @@ class SettingsActivity : AppCompatActivity() {
         const val DEFAULT_CAMERA_LENS = "front"
         const val DEFAULT_LIVENESS_THRESHOLD = "0.7"
         const val DEFAULT_IDENTIFY_THRESHOLD = "0.8"
+        const val DEFAULT_LIVENESS_LEVEL = "0"
 
         @JvmStatic
         fun getLivenessThreshold(context: Context): Float {
@@ -35,6 +36,17 @@ class SettingsActivity : AppCompatActivity() {
                 return CameraSelector.LENS_FACING_BACK
             } else {
                 return CameraSelector.LENS_FACING_FRONT
+            }
+        }
+
+        @JvmStatic
+        fun getLivenessLevel(context: Context): Int {
+            val sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context)
+            val livenessLevel = sharedPreferences.getString("liveness_level", SettingsActivity.DEFAULT_LIVENESS_LEVEL)
+            if(livenessLevel == "0") {
+                return 0
+            } else {
+                return 1
             }
         }
     }
@@ -61,6 +73,7 @@ class SettingsActivity : AppCompatActivity() {
 
             val cameraLensPref = findPreference<ListPreference>("camera_lens")
             val livenessThresholdPref = findPreference<EditTextPreference>("liveness_threshold")
+            val livenessLevelPref = findPreference<ListPreference>("liveness_level")
             val identifyThresholdPref = findPreference<EditTextPreference>("identify_threshold")
             val buttonRestorePref = findPreference<Preference>("restore_default_settings")
 
@@ -97,6 +110,7 @@ class SettingsActivity : AppCompatActivity() {
             buttonRestorePref?.setOnPreferenceClickListener {
 
                 cameraLensPref?.value = SettingsActivity.DEFAULT_CAMERA_LENS
+                livenessLevelPref?.value = SettingsActivity.DEFAULT_LIVENESS_LEVEL
                 livenessThresholdPref?.text = SettingsActivity.DEFAULT_LIVENESS_THRESHOLD
                 identifyThresholdPref?.text = SettingsActivity.DEFAULT_IDENTIFY_THRESHOLD
 

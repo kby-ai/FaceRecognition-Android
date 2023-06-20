@@ -11,6 +11,7 @@
     <!-- Messages Preferences -->
     <string name="camera_lens">Camera lens</string>
     <string name="liveness_threshold">Liveness threshold</string>
+    <string name="liveness_level">Liveness Level</string>
     <string name="identify_threshold">Identify threshold</string>
     <string name="restore_default_settings">Restore default settings</string>
     <string name="clear_all_person">Clear all person</string>

@@ -13,6 +13,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.preference.PreferenceManager
 import com.kbyai.facesdk.FaceBox
+import com.kbyai.facesdk.FaceDetectionParam
 import com.kbyai.facesdk.FaceSDK
 import kotlin.random.Random
 
@@ -75,7 +76,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         findViewById<Button>(R.id.buttonIdentify).setOnClickListener {
-            startActivity(Intent(this, CameraActivity::class.java))
+            startActivity(Intent(this, CameraActivityKt::class.java))
         }
 
         findViewById<Button>(R.id.buttonSettings).setOnClickListener {
@@ -96,7 +97,11 @@ class MainActivity : AppCompatActivity() {
         if (requestCode == SELECT_PHOTO_REQUEST_CODE && resultCode == RESULT_OK) {
             try {
                 var bitmap: Bitmap = Utils.getCorrectlyOrientedImage(this, data?.data!!)
-                var faceBoxes: List<FaceBox>? = FaceSDK.faceDetection(bitmap)
+
+                val faceDetectionParam = FaceDetectionParam()
+                faceDetectionParam.check_liveness = true
+                faceDetectionParam.check_liveness_level = SettingsActivity.getLivenessLevel(this)
+                var faceBoxes: List<FaceBox>? = FaceSDK.faceDetection(bitmap, faceDetectionParam)
 
                 if(faceBoxes.isNullOrEmpty()) {
                     Toast.makeText(this, getString(R.string.no_face_detected), Toast.LENGTH_SHORT).show()

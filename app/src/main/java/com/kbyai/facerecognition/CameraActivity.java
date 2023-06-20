@@ -30,9 +30,11 @@ import androidx.core.content.ContextCompat;
 
 import com.google.common.util.concurrent.ListenableFuture;
 import com.kbyai.facesdk.FaceBox;
+import com.kbyai.facesdk.FaceDetectionParam;
 import com.kbyai.facesdk.FaceSDK;
 
 import java.nio.ByteBuffer;
+import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
@@ -198,9 +200,16 @@ public class CameraActivity extends AppCompatActivity {
             vBuffer.get(nv21, ySize, vSize);
             uBuffer.get(nv21, ySize + vSize, uSize);
 
-            Bitmap bitmap  = FaceSDK.yuv2Bitmap(nv21, image.getWidth(), image.getHeight(), 7);
+            int cameraMode = 7;
+            if(SettingsActivity.getCameraLens(context) == CameraSelector.LENS_FACING_BACK) {
+                cameraMode = 6;
+            }
+            Bitmap bitmap  = FaceSDK.yuv2Bitmap(nv21, image.getWidth(), image.getHeight(), cameraMode);
 
-            List<FaceBox> faceBoxes = FaceSDK.faceDetection(bitmap);
+            FaceDetectionParam faceDetectionParam = new FaceDetectionParam();
+            faceDetectionParam.check_liveness = true;
+            faceDetectionParam.check_liveness_level = SettingsActivity.getLivenessLevel(this);
+            List<FaceBox> faceBoxes = FaceSDK.faceDetection(bitmap, faceDetectionParam);
 
             runOnUiThread(new Runnable() {
                 @Override

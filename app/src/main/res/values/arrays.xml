@@ -9,4 +9,15 @@
         <item>front</item>
         <item>back</item>
     </string-array>
+
+    <string-array name="liveness_level">
+        <item>High Accuracy</item>
+        <item>Light Weight</item>
+    </string-array>
+
+    <string-array name="liveness_level_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
 </resources>

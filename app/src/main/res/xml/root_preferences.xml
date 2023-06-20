@@ -26,6 +26,14 @@
             app:useSimpleSummaryProvider="true"
             />
 
+        <ListPreference
+            app:defaultValue="0"
+            app:entries="@array/liveness_level"
+            app:entryValues="@array/liveness_level_values"
+            app:key="liveness_level"
+            app:title="@string/liveness_level"
+            app:useSimpleSummaryProvider="true" />
+
         <EditTextPreference
             app:defaultValue="0.8"
             app:key="identify_threshold"

@@ -11,8 +11,8 @@ android {
         applicationId "com.kbyai.facerecognition"
         minSdk 24
         targetSdk 33
-        versionCode 2
-        versionName "1.1"
+        versionCode 3
+        versionName "1.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -45,6 +45,8 @@ dependencies {
     implementation "androidx.camera:camera-camera2:1.0.0-beta12"
     implementation "androidx.camera:camera-lifecycle:1.0.0-beta12"
     implementation 'androidx.camera:camera-view:1.0.0-alpha19'
+
+    implementation 'io.fotoapparat:fotoapparat:2.7.0'
 
     implementation project(path: ':libfacesdk')
 

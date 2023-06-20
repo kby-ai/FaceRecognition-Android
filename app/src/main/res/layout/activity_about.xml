@@ -23,8 +23,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical | left"
-        android:text=" We are a leading provider of SDKs for advanced biometric authentication technology, including face recognition, liveness detection, and ID card recognition.\n\n
-In addition to biometric authentication solutions, we provide software development services for computer vision, mobile applications, and UI/UX design.\n\n
+        android:text=" We are a leading provider of SDKs for advanced biometric authentication technology, including Face Recognition, Face Liveness Detection, and ID Card Recognition.\n\n
+In addition to biometric authentication solutions, we provide software development services for computer vision and mobile applications\n\n
 With our team's extensive knowledge and proficiency in these areas, we can deliver exceptional results to our clients.\n\n
 If you're interested in learning more about how we can help you, please don't hesitate to get in touch with us today.\n\n\n
 Please contact us:"
@@ -48,6 +48,7 @@ Please contact us:"
     </ImageView>
 
     <TextView
+        android:id="@+id/txtMail"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -92,6 +93,7 @@ Please contact us:"
         app:srcCompat="@drawable/ic_telegram"></ImageView>
 
     <TextView
+        android:id="@+id/txtTelegram"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -114,6 +116,7 @@ Please contact us:"
         app:srcCompat="@drawable/ic_whatsapp"></ImageView>
 
     <TextView
+        android:id="@+id/txtWhatsapp"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
@@ -123,4 +126,28 @@ Please contact us:"
         app:layout_constraintBottom_toBottomOf="@id/imageWhatsApp"
         >
     </TextView>
+
+    <ImageView
+        android:id="@+id/imageGithub"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:tint="@color/md_theme_dark_primary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageWhatsApp"
+        app:srcCompat="@drawable/ic_github"></ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="Github: https://github.com/kby-ai"
+        app:layout_constraintStart_toEndOf="@id/imageGithub"
+        app:layout_constraintTop_toTopOf="@id/imageGithub"
+        app:layout_constraintBottom_toBottomOf="@id/imageGithub"
+        android:autoLink="web"
+        >
+    </TextView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
