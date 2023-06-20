@@ -123,7 +123,7 @@ class CameraActivityKt : AppCompatActivity() {
                     var maxSimiarlity = 0f
                     var maximiarlityPerson: Person? = null
                     for (person in DBManager.personList) {
-                        val similarity = FaceSDK.similarityCalucation(templates, person.templates)
+                        val similarity = FaceSDK.similarityCalculation(templates, person.templates)
                         if (similarity > maxSimiarlity) {
                             maxSimiarlity = similarity
                             maximiarlityPerson = person

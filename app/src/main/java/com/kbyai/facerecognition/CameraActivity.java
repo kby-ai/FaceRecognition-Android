@@ -227,7 +227,7 @@ public class CameraActivity extends AppCompatActivity {
                     float maxSimiarlity = 0;
                     Person maximiarlityPerson = null;
                     for(Person person : DBManager.personList) {
-                        float similarity = FaceSDK.similarityCalucation(templates, person.templates);
+                        float similarity = FaceSDK.similarityCalculation(templates, person.templates);
                         if(similarity > maxSimiarlity) {
                             maxSimiarlity = similarity;
                             maximiarlityPerson = person;
