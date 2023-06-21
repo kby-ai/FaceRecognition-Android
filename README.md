@@ -64,13 +64,13 @@ https://drive.google.com/file/d/1cn_89fYDYhq8ANXs2epO-KBv7p5ZnWcA/view?usp=shari
 ## Screenshots
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/125717930/232038080-fb3a9bbb-dbc3-4d17-ac40-e14d83f4253a.png" width=240/>
+  <img src="https://github.com/kby-ai/FaceRecognition-Android/assets/125717930/2bb97451-241b-4cf3-bd0b-2aefb43ce937" width=240/>
   <img src="https://user-images.githubusercontent.com/125717930/232038075-8d35cc96-7b0e-4a42-80a5-32a9efca33ee.png" width=240/>
-  <img src="https://user-images.githubusercontent.com/125717930/232038058-8ac20b97-ec60-4986-b467-fffd15e3b2ea.png" width=240/>
+  <img src="https://github.com/kby-ai/FaceRecognition-Android/assets/125717930/a1375c84-0d63-41b4-b2d7-d324e1f2884b" width=240/>
 </p>
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/125717930/232038066-aad39f28-3432-4822-8da1-a9f80da39e7f.png" width=240/>
+  <img src="https://github.com/kby-ai/FaceRecognition-Android/assets/125717930/0787ee25-c236-4441-9a33-54d61b5d66e1" width=240/>
   <img src="https://user-images.githubusercontent.com/125717930/232038042-1f377ccd-4b9e-462c-a071-ddf1c133ce97.png" width=240/>
   <img src="https://user-images.githubusercontent.com/125717930/232038055-aa149d97-1362-4d36-b4d9-91aab6766d36.png" width=240/>
 </p>
