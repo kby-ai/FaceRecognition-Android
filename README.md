@@ -3,15 +3,16 @@
     <img alt="" src="https://github-production-user-asset-6210df.s3.amazonaws.com/125717930/246971879-8ce757c3-90dc-438d-807f-3f3d29ddc064.png" width=500/>
   </a>  
 </p>
+
+👏 Product List
+
+https://github.com/kby-ai/Product
+
 👏  We have published the Face Liveness Detection, Face Recognition SDK and ID Card Recognition SDK for the server.
 
   - [FaceLivenessDetection-Docker](https://github.com/kby-ai/FaceLivenessDetection-Docker)
 
-  - [FaceLivenessDetection-Windows](https://github.com/kby-ai/FaceLivenessDetection-Windows)
-
   - [FaceRecognition-Docker](https://github.com/kby-ai/FaceRecognition-Docker)
-
-  - [FaceRecognition-Windows](https://github.com/kby-ai/FaceRecognition-Windows)
 
   - [IDCardRecognition-Docker](https://github.com/kby-ai/IDCardRecognition-Docker)
 
