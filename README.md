@@ -8,7 +8,7 @@
 
 https://github.com/kby-ai/Product
 
-👏  We have published the Face Liveness Detection, Face Recognition SDK and ID Card Recognition SDK for the server.
+👏  We have published the Face Liveness Detection(Face Anti-Spoofing), Face Recognition SDK and ID Card Recognition SDK for the server.
 
   - [FaceLivenessDetection-Docker](https://github.com/kby-ai/FaceLivenessDetection-Docker)
 
