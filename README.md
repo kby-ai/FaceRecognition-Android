@@ -17,7 +17,7 @@ The demo project demonstrates both Face Liveness Detection and Face Recognition 
 
 ### ◾FaceSDK(Mobile) Details
 
-  | Basic      | Standard | Premium |
+  | Basic      | 🔽 Standard | Premium |
   |------------------|------------------|------------------|
   | Face Detection        | <b>Face Detection</b>    | Face Detection |
   | Face Liveness Detection        | <b>Face Liveness Detection</b>    | Face Liveness Detection |
