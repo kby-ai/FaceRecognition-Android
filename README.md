@@ -64,8 +64,6 @@ The demo project demonstrates both Face Liveness Detection and Face Recognition 
 
 ## SDK License
 
-The face recognition project relies on kby-ai's SDK, which requires a license for each application ID.
-
 - The code below shows how to use the license: https://github.com/kby-ai/FaceRecognition-Android/blob/4b071e04766d6b6a46882c0fc87cd7e2bcdc395d/app/src/main/java/com/kbyai/facerecognition/MainActivity.kt#L33-L43
 
 - To request a license, please contact us:
