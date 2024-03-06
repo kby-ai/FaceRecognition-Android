@@ -30,7 +30,7 @@ The demo project demonstrates both Face Liveness Detection and Face Recognition 
   |         |         | Age, Gender Estimation |
 
 ### ✅ FaceSDK(Mobile) Product List
-  | No      | Project | SDK Details |
+  | No.      | Repository | SDK Details |
   |------------------|------------------|------------------|
   | 1        | [Face Liveness Detection - Android](https://github.com/kby-ai/FaceLivenessDetection-Android)    | Basic SDK |
   | 2        | [Face Liveness Detection - iOS](https://github.com/kby-ai/FaceLivenessDetection-iOS)    | Basic SDK |
