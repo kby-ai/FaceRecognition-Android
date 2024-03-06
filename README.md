@@ -15,7 +15,7 @@
 
 The demo project demonstrates both Face Liveness Detection and Face Recognition Technology.
 
-### ✅ FaceSDK(Mobile) Details
+### ◾FaceSDK(Mobile) Details
 
   | Basic      | Standard | Premium |
   |------------------|------------------|------------------|
@@ -29,7 +29,7 @@ The demo project demonstrates both Face Liveness Detection and Face Recognition 
   |         |         | Eye Closure Detection |
   |         |         | Age, Gender Estimation |
 
-### ✅ FaceSDK(Mobile) Product List
+### ◾FaceSDK(Mobile) Product List
   | No.      | Repository | SDK Details |
   |------------------|------------------|------------------|
   | 1        | [Face Liveness Detection - Android](https://github.com/kby-ai/FaceLivenessDetection-Android)    | Basic SDK |
