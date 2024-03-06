@@ -19,10 +19,10 @@ The demo project demonstrates both Face Liveness Detection and Face Recognition 
 
   | Basic      | Standard | Premium |
   |------------------|------------------|------------------|
-  | Face Detection        | Face Detection    | Face Detection |
-  | Face Liveness Detection        | Face Liveness Detection    | Face Liveness Detection |
-  | Pose Estimation        | Pose Estimation    | Pose Estimation |
-  |         | Face Recognition    | Face Recognition |
+  | Face Detection        | <b>Face Detection</b>    | Face Detection |
+  | Face Liveness Detection        | <b>Face Liveness Detection</b>    | Face Liveness Detection |
+  | Pose Estimation        | <b>Pose Estimation</b>    | Pose Estimation |
+  |         | <b>Face Recognition</b>    | Face Recognition |
   |         |         | 68 points Face Landmark Detection |
   |         |         | Face Quality Calculation |
   |         |         | Face Occlusion Detection |
@@ -30,16 +30,14 @@ The demo project demonstrates both Face Liveness Detection and Face Recognition 
   |         |         | Age, Gender Estimation |
 
 ### ✅ FaceSDK(Mobile) Product List
-  | No      | Product | SDK |
-  |------------------|------------------|------------------|
-  | 1        | [Face Liveness Detection - Android](https://github.com/kby-ai/FaceLivenessDetection-Android)    | Basic SDK |
-  | 2        | [Face Liveness Detection - iOS](https://github.com/kby-ai/FaceLivenessDetection-iOS)    | Basic SDK |
-  | <b>3<b/>        | <b>[Face Recognition - Android](https://github.com/kby-ai/FaceRecognition-Android)<b/>    | <b>Standard SDK<b/> |
-  | 4        | [Face Recognition - iOS](https://github.com/kby-ai/FaceRecognition-iOS)    | Standard SDK |
-  | 5        | [Face Recognition - Flutter](https://github.com/kby-ai/FaceRecognition-Flutter)        | Standard SDK |
-  | 6        | [Face Recognition - React-Native](https://github.com/kby-ai/FaceRecognition-React-Native)        | Standard SDK |
-  | 7        | [Face Attribute - Android](https://github.com/kby-ai/FaceAttribute-Android)        | Premium SDK |
-  | 8        | [Face Attribute - iOS](https://github.com/kby-ai/FaceAttribute-iOS)        | Premium SDK |
+- [Face Liveness Detection - Android(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-Android)
+- [Face Liveness Detection - iOS(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-iOS)
+- ➡️ <b>[Face Recognition - Android(Standard SDK)](https://github.com/kby-ai/FaceRecognition-Android)</b>
+- [Face Recognition - iOS(Standard SDK)](https://github.com/kby-ai/FaceRecognition-iOS)
+- [Face Recognition - Flutter(Standard SDK)](https://github.com/kby-ai/FaceRecognition-Flutter)
+- [Face Recognition - React-Native(Standard SDK)](https://github.com/kby-ai/FaceRecognition-React-Native)
+- [Face Attribute - Android(Premium SDK)](https://github.com/kby-ai/FaceAttribute-Android)
+- [Face Attribute - iOS(Premium SDK)](https://github.com/kby-ai/FaceAttribute-iOS)
 
 ## Try the APK
 
