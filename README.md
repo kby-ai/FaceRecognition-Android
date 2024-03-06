@@ -34,7 +34,7 @@ The demo project demonstrates both Face Liveness Detection and Face Recognition 
   |------------------|------------------|------------------|
   | 1        | [Face Liveness Detection - Android](https://github.com/kby-ai/FaceLivenessDetection-Android)    | Basic SDK |
   | 2        | [Face Liveness Detection - iOS](https://github.com/kby-ai/FaceLivenessDetection-iOS)    | Basic SDK |
-  | 3        | [Face Recognition - Android](https://github.com/kby-ai/FaceRecognition-Android)    | Standard SDK |
+  | <b>3<b/>        | <b>[Face Recognition - Android](https://github.com/kby-ai/FaceRecognition-Android)<b/>    | <b>Standard SDK<b/> |
   | 4        | [Face Recognition - iOS](https://github.com/kby-ai/FaceRecognition-iOS)    | Standard SDK |
   | 5        | [Face Recognition - Flutter](https://github.com/kby-ai/FaceRecognition-Flutter)        | Standard SDK |
   | 6        | [Face Recognition - React-Native](https://github.com/kby-ai/FaceRecognition-React-Native)        | Standard SDK |
