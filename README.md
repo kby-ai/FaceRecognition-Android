@@ -49,6 +49,11 @@ The demo project demonstrates both Face Liveness Detection and Face Recognition 
   <img alt="" src="https://user-images.githubusercontent.com/125717930/230804673-17c99e7d-6a21-4a64-8b9e-a465142da148.png" height=80/>
 </a>
 
+## Performance Video
+
+You can visit our YouTube video [here](https://www.youtube.com/watch?v=YybJW0Nfl4M) to see how well our demo app works.</br>
+[![Face Recognition Android](https://img.youtube.com/vi/YybJW0Nfl4M/0.jpg)](https://www.youtube.com/watch?v=YybJW0Nfl4M)
+
 ## Screenshots
 <p float="left">
   <img src="https://github.com/kby-ai/FaceRecognition-Android/assets/125717930/d896a060-0605-48ff-a774-4d767aac1d3c" width=200/>
