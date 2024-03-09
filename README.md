@@ -71,14 +71,12 @@ You can visit our YouTube video [here](https://www.youtube.com/watch?v=YybJW0Nfl
 
 - The code below shows how to use the license: https://github.com/kby-ai/FaceRecognition-Android/blob/4b071e04766d6b6a46882c0fc87cd7e2bcdc395d/app/src/main/java/com/kbyai/facerecognition/MainActivity.kt#L33-L43
 
-- To request a license, please contact us:
-```
-Email: contact@kby-ai.com
-Telegram: @kbyai
-WhatsApp: +19092802609
-Skype: live:.cid.66e2522354b1049b
-Facebook: https://www.facebook.com/KBYAI
-```
+- To request a license, please contact us:</br>
+🧙`Email:` contact@kby-ai.com</br>
+🧙`Telegram:` @kbyai</br>
+🧙`WhatsApp:` +19092802609</br>
+🧙`Skype:` live:.cid.66e2522354b1049b</br>
+🧙`Facebook:` https://www.facebook.com/KBYAI</br>
 
 ## About SDK
 
