@@ -13,8 +13,9 @@
 
 ## Overview
 
-The demo project demonstrates both Face Liveness Detection and Face Recognition Technology.
+This repository demonstrates both face liveness detection and face recognition technology developed from KBY-AI.
 
+> In this repository, we integrated KBY-AI's both face liveness detection and face recognition technology into Android native platform.</br>
 ### ◾FaceSDK(Mobile) Details
 
   | Basic      | 🔽 Standard | Premium |
