@@ -53,7 +53,7 @@ This repository demonstrates both face liveness detection and face recognition t
 
 ## Performance Video
 
-You can visit our YouTube video [here](https://www.youtube.com/watch?v=YybJW0Nfl4M) to see how well our demo app works.</br>
+You can visit our YouTube video [here](https://www.youtube.com/watch?v=YybJW0Nfl4M) to see how well our demo app works.</br></br>
 [![Face Recognition Android](https://img.youtube.com/vi/YybJW0Nfl4M/0.jpg)](https://www.youtube.com/watch?v=YybJW0Nfl4M)
 
 ## Screenshots
