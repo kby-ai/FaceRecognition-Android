@@ -4,54 +4,45 @@
   </a>  
 </p>
 
-👏 Product List
-
-https://github.com/kby-ai/Product
-
-👏  We have published the Face Liveness Detection(Face Anti-Spoofing), Face Recognition SDK and ID Card Recognition SDK for the server.
-
-  - [FaceLivenessDetection-Docker](https://github.com/kby-ai/FaceLivenessDetection-Docker)
-
-  - [FaceRecognition-Docker](https://github.com/kby-ai/FaceRecognition-Docker)
-
-  - [IDCardRecognition-Docker](https://github.com/kby-ai/IDCardRecognition-Docker)
+#### 📚 Product & Resources - [Here](https://github.com/kby-ai/Product)
+#### 🛟 Help Center - [Here](https://docs.kby-ai.com)
+#### 💼 KYC Verification Demo - [Here](https://github.com/kby-ai/KYC-Verification-Demo-Android)
+#### 🙋‍♀️ Docker Hub - [Here](https://hub.docker.com/u/kbyai)
 
 # FaceRecognition-Android
 
 ## Overview
 
-The demo project demonstrates both Face Liveness Detection and Face Recognition Technology.
+This repository demonstrates both face liveness detection and face recognition technology developed from KBY-AI.
 
-> The demo is integrated with KBY-AI's Standard Face Mobile SDK.
+> In this repository, we integrated KBY-AI's both face liveness detection and face recognition technology into Android native platform.</br>
+### ◾FaceSDK(Mobile) Details
 
-  | Basic      | Standard | Premium |
+  | Basic      | 🔽 Standard | Premium |
   |------------------|------------------|------------------|
-  | Face Detection        | Face Detection    | Face Detection |
-  | Face Liveness Detection        | Face Liveness Detection    | Face Liveness Detection |
-  | Pose Estimation        | Pose Estimation    | Pose Estimation |
-  |         | Face Recognition    | Face Recognition |
+  | Face Detection        | <b>Face Detection</b>    | Face Detection |
+  | Face Liveness Detection        | <b>Face Liveness Detection</b>    | Face Liveness Detection |
+  | Pose Estimation        | <b>Pose Estimation</b>    | Pose Estimation |
+  |         | <b>Face Recognition</b>    | Face Recognition |
   |         |         | 68 points Face Landmark Detection |
   |         |         | Face Quality Calculation |
   |         |         | Face Occlusion Detection |
   |         |         | Eye Closure Detection |
   |         |         | Age, Gender Estimation |
 
-> [Face Liveness Detection - Android(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-Android)
-> 
-> [Face Liveness Detection - iOS(Basic SDK)](https://github.com/kby-ai/FaceLivenessDetection-iOS)
-> 
-> [Face Recognition - Android(Standard SDK)](https://github.com/kby-ai/FaceRecognition-Android)
-> 
-> [Face Recognition - iOS(Standard SDK)](https://github.com/kby-ai/FaceRecognition-iOS)
-> 
-> [Face Recognition - Flutter(Standard SDK)](https://github.com/kby-ai/FaceRecognition-Flutter)
-> 
-> [Face Recognition - React-Native(Standard SDK)](https://github.com/kby-ai/FaceRecognition-React-Native)
->
-> [Face Attribute - Android(Premium SDK)](https://github.com/kby-ai/FaceAttribute-Android)
-> 
-> [Face Attribute - iOS(Premium SDK)](https://github.com/kby-ai/FaceAttribute-iOS)
+### ◾FaceSDK(Mobile) Product List
+  | No.      | Repository | SDK Details |
+  |------------------|------------------|------------------|
+  | 1        | [Face Liveness Detection - Android](https://github.com/kby-ai/FaceLivenessDetection-Android)    | Basic SDK |
+  | 2        | [Face Liveness Detection - iOS](https://github.com/kby-ai/FaceLivenessDetection-iOS)    | Basic SDK |
+  | ➡️        | <b>[Face Recognition - Android](https://github.com/kby-ai/FaceRecognition-Android)</b>    | <b>Standard SDK</b> |
+  | 4        | [Face Recognition - iOS](https://github.com/kby-ai/FaceRecognition-iOS)    | Standard SDK |
+  | 5        | [Face Recognition - Flutter](https://github.com/kby-ai/FaceRecognition-Flutter)        | Standard SDK |
+  | 6        | [Face Recognition - React-Native](https://github.com/kby-ai/FaceRecognition-React-Native)        | Standard SDK |
+  | 7        | [Face Attribute - Android](https://github.com/kby-ai/FaceAttribute-Android)        | Premium SDK |
+  | 8        | [Face Attribute - iOS](https://github.com/kby-ai/FaceAttribute-iOS)        | Premium SDK |
 
+ > To get Face SDK(server), please visit products [here](https://github.com/kby-ai/Product).<br/>
 ## Try the APK
 
 ### Google Play
@@ -60,16 +51,16 @@ The demo project demonstrates both Face Liveness Detection and Face Recognition 
   <img alt="" src="https://user-images.githubusercontent.com/125717930/230804673-17c99e7d-6a21-4a64-8b9e-a465142da148.png" height=80/>
 </a>
 
-### Google Drive
+## Performance Video
 
-https://drive.google.com/file/d/1cn_89fYDYhq8ANXs2epO-KBv7p5ZnWcA/view?usp=sharing
+You can visit our YouTube video [here](https://www.youtube.com/watch?v=YybJW0Nfl4M) to see how well our demo app works.</br>
+[![Face Recognition Android](https://img.youtube.com/vi/YybJW0Nfl4M/0.jpg)](https://www.youtube.com/watch?v=YybJW0Nfl4M)
 
 ## Screenshots
-
 <p float="left">
   <img src="https://github.com/kby-ai/FaceRecognition-Android/assets/125717930/d896a060-0605-48ff-a774-4d767aac1d3c" width=200/>
   <img src="https://github.com/kby-ai/FaceRecognition-Android/assets/125717930/3dba3854-aad1-4b18-b146-7bbdd02241f2" width=200/>
-  <img src="https://github.com/kby-ai/FaceRecognition-Android/assets/125717930/30526548-d619-4f14-9008-ae750c92ef3b" width=200/>
+  <img src="https://github.com/kby-ai/FaceRecognition-Android/assets/125717930/84a06eb8-4892-4c09-a6e0-1a4fb364293b" width=200/>
 </p>
 
 <p float="left">
@@ -80,22 +71,14 @@ https://drive.google.com/file/d/1cn_89fYDYhq8ANXs2epO-KBv7p5ZnWcA/view?usp=shari
 
 ## SDK License
 
-The face recognition project relies on kby-ai's SDK, which requires a license for each application ID.
-
 - The code below shows how to use the license: https://github.com/kby-ai/FaceRecognition-Android/blob/4b071e04766d6b6a46882c0fc87cd7e2bcdc395d/app/src/main/java/com/kbyai/facerecognition/MainActivity.kt#L33-L43
 
-- To request a license, please contact us:
-```
-Email: contact@kby-ai.com
-
-Telegram: @kbyai
-
-WhatsApp: +19092802609
-
-Skype: live:.cid.66e2522354b1049b
-
-Facebook: https://www.facebook.com/KBYAI
-```
+- To request a license, please contact us:</br>
+🧙`Email:` contact@kby-ai.com</br>
+🧙`Telegram:` @kbyai</br>
+🧙`WhatsApp:` +19092802609</br>
+🧙`Skype:` live:.cid.66e2522354b1049b</br>
+🧙`Facebook:` https://www.facebook.com/KBYAI</br>
 
 ## About SDK
 
