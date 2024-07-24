@@ -84,5 +84,67 @@ class AboutActivity : AppCompatActivity() {
                 startActivity(telegram)
             }
         }
+
+        findViewById<TextView>(R.id.txtSkype).setOnClickListener {
+            val general = Intent(Intent.ACTION_VIEW, Uri.parse("https://com.skype/kbyai"))
+            val generalResolvers: HashSet<String> = HashSet()
+            val generalResolveInfo: List<ResolveInfo> = packageManager.queryIntentActivities(general, 0)
+            for (info in generalResolveInfo) {
+                if (info.activityInfo.packageName != null) {
+                    generalResolvers.add(info.activityInfo.packageName)
+                }
+            }
+
+            val telegram = Intent(Intent.ACTION_VIEW, Uri.parse("https://join.skype.com/invite/OffY2r1NUFev"))
+            var goodResolver = 0
+
+            val resInfo: List<ResolveInfo> = packageManager.queryIntentActivities(telegram, 0)
+            if (!resInfo.isEmpty()) {
+                for (info in resInfo) {
+                    if (info.activityInfo.packageName != null && !generalResolvers.contains(info.activityInfo.packageName)) {
+                        goodResolver++
+                        telegram.setPackage(info.activityInfo.packageName)
+                    }
+                }
+            }
+
+            if (goodResolver != 1) {
+                telegram.setPackage(null)
+            }
+            if (telegram.resolveActivity(packageManager) != null) {
+                startActivity(telegram)
+            }
+        }
+
+        findViewById<TextView>(R.id.txtGitHub).setOnClickListener {
+            val general = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/kby-ai"))
+            val generalResolvers: HashSet<String> = HashSet()
+            val generalResolveInfo: List<ResolveInfo> = packageManager.queryIntentActivities(general, 0)
+            for (info in generalResolveInfo) {
+                if (info.activityInfo.packageName != null) {
+                    generalResolvers.add(info.activityInfo.packageName)
+                }
+            }
+
+            val telegram = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/kby-ai"))
+            var goodResolver = 0
+
+            val resInfo: List<ResolveInfo> = packageManager.queryIntentActivities(telegram, 0)
+            if (!resInfo.isEmpty()) {
+                for (info in resInfo) {
+                    if (info.activityInfo.packageName != null && !generalResolvers.contains(info.activityInfo.packageName)) {
+                        goodResolver++
+                        telegram.setPackage(info.activityInfo.packageName)
+                    }
+                }
+            }
+
+            if (goodResolver != 1) {
+                telegram.setPackage(null)
+            }
+            if (telegram.resolveActivity(packageManager) != null) {
+                startActivity(telegram)
+            }
+        }
     }
 }
