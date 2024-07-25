@@ -86,12 +86,12 @@ You can visit our YouTube video [here](https://www.youtube.com/watch?v=M7t_dpT-h
 1. Copy the SDK (libfacesdk folder) to the root folder of your project.
 
 2. Add SDK to the project in settings.gradle
-```
+```bash
 include ':libfacesdk'
 ```
 
 3. Add dependency to your build.gradle
-```
+```bash
 implementation project(path: ':libfacesdk')
 ```
 
@@ -100,7 +100,7 @@ implementation project(path: ':libfacesdk')
 - Step One
 
 To begin, you need to activate the SDK using the license that you have received.
-```
+```kotlin
 FaceSDK.setActivation("...")
 ```
 
@@ -109,7 +109,7 @@ If activation is successful, the return value will be SDK_SUCCESS. Otherwise, an
 - Step Two
 
 After activation, call the SDK's initialization function.
-```
+```kotlin
 FaceSDK.init(getAssets());
 ```
 If initialization is successful, the return value will be SDK_SUCCESS. Otherwise, an error value will be returned.
@@ -131,7 +131,7 @@ If initialization is successful, the return value will be SDK_SUCCESS. Otherwise
 #### - Face Detection and Liveness Detection
 
 The FaceSDK offers a single function for detecting faces, allowing the inclusion of face liveness detection and specifying the desired liveness detection level.
-```
+```kotlin
 FaceSDK.faceDetection(bitmap, param)
 ```
 
@@ -144,7 +144,7 @@ The return value of the function is a list of FaceBox objects. Each FaceBox obje
 
 The FaceSDK provides a function that can generate a template from a bitmap image. This template can then be used to verify the identity of the individual captured in the image.
 
-```
+```kotlin
 byte[] templates = FaceSDK.templateExtraction(bitmap, faceBox);
 ```
 
@@ -156,7 +156,7 @@ The function returns a byte array, which contains the template that can be used 
 
 The "similarityCalculation" function takes a byte array of two templates as a parameter. 
 
-```
+```kotlin
 float similarity = FaceSDK.similarityCalculation(templates1, templates1);
 ```
 
@@ -164,7 +164,7 @@ It returns the similarity value between the two templates, which can be used to 
 
 #### - Yuv to Bitmap
 The SDK provides a function called yuv2Bitmap, which converts a yuv frame to a bitmap. Since camera frames are typically in yuv format, this function is necessary to convert them to bitmaps. The usage of this function is as follows:
-```
+```kotlin
 Bitmap bitmap = FaceSDK.yuv2Bitmap(nv21, image.getWidth(), image.getHeight(), 7);
 ```
 The first parameter is an nv21 byte array containing the yuv data. 
@@ -174,7 +174,7 @@ The second parameter is the width of the yuv frame, and the third parameter is i
 The fourth parameter is the conversion mode, which is determined by the camera orientation.
 
 To determine the appropriate conversion mode, the following method can be used:
-```
+```kotlin
  1        2       3      4         5            6           7          8
 
  888888  888888      88  88      8888888888  88                  88  8888888888
