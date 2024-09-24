@@ -12,7 +12,6 @@
 # FaceRecognition-Android
 
 ## Overview
-
 This repository demonstrates both face liveness detection and face recognition technology developed from KBY-AI.
 
 > In this repository, we integrated KBY-AI's both face liveness detection and face recognition technology into Android native platform.</br>
