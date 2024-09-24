@@ -20,6 +20,7 @@ import io.fotoapparat.parameter.Resolution
 import io.fotoapparat.preview.Frame
 import io.fotoapparat.preview.FrameProcessor
 import io.fotoapparat.selector.front
+import io.fotoapparat.selector.back
 import io.fotoapparat.view.CameraView
 
 class CameraActivityKt : AppCompatActivity() {
@@ -43,12 +44,21 @@ class CameraActivityKt : AppCompatActivity() {
         cameraView = findViewById(R.id.preview)
         faceView = findViewById(R.id.faceView)
 
-        fotoapparat = Fotoapparat.with(this)
-            .into(cameraView)
-            .lensPosition(front())
-            .frameProcessor(FaceFrameProcessor())
-            .previewResolution { Resolution(PREVIEW_HEIGHT,PREVIEW_WIDTH) }
-            .build()
+        if (SettingsActivity.getCameraLens(context) == CameraSelector.LENS_FACING_BACK) {
+            fotoapparat = Fotoapparat.with(this)
+                .into(cameraView)
+                .lensPosition(back())
+                .frameProcessor(FaceFrameProcessor())
+                .previewResolution { Resolution(PREVIEW_HEIGHT,PREVIEW_WIDTH) }
+                .build()
+        } else  {
+            fotoapparat = Fotoapparat.with(this)
+                .into(cameraView)
+                .lensPosition(front())
+                .frameProcessor(FaceFrameProcessor())
+                .previewResolution { Resolution(PREVIEW_HEIGHT,PREVIEW_WIDTH) }
+                .build()
+        }
 
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA)
             == PackageManager.PERMISSION_DENIED
