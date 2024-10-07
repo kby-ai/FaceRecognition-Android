@@ -4,6 +4,7 @@
   </a>  
 </p>
 
+#### 🤗 Hugging Face - [Here](https://huggingface.co/kby-ai) <span> <img src="https://github.com/kby-ai/.github/assets/125717930/bcf351c5-8b7a-496e-a8f9-c236eb8ad59e" style="margin: 4px; width: 36px; height: 20px"> <span/>
 #### 📚 Product & Resources - [Here](https://github.com/kby-ai/Product)
 #### 🛟 Help Center - [Here](https://docs.kby-ai.com)
 #### 💼 KYC Verification Demo - [Here](https://github.com/kby-ai/KYC-Verification-Demo-Android)
