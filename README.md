@@ -86,7 +86,7 @@ You can visit our YouTube video [here](https://www.youtube.com/watch?v=HpDggnWsG
 🧙`Telegram:` [@kbyai](https://t.me/kbyai)</br>
 🧙`WhatsApp:` [+19092802609](https://wa.me/+19092802609)</br>
 🧙`Skype:` [live:.cid.66e2522354b1049b](https://join.skype.com/invite/OffY2r1NUFev)</br>
-🧙`Facebook:` https://www.facebook.com/KBYAI</br>
+🧙`Discord:` [KBY-AI](https://discord.gg/CgHtWQ3k9T)</br>
 
 ## About SDK
 
