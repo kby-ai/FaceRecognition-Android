@@ -17,6 +17,18 @@
 #### 🙋‍♀️ Docker Hub - [Here](https://hub.docker.com/u/kbyai)
 
 # FaceRecognition-Android
+<p align="left">Real-time face recognition with 99.9% accuracy | Liveness detection | Android-optimized</p>
+
+## ✨ Key Features  
+- `Real-time processing` under 200ms latency
+
+- `Liveness detection` prevents photo/video spoofing
+
+- `Lightweight` APK under 35MB  
+
+- Compliant with ISO/IEC 30107-1 biometric standards  
+
+- All data processed locally (no cloud transmission)
 
 ## Overview
 
