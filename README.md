@@ -4,20 +4,8 @@
   </a>  
 </p>
 
-### Our facial recognition algorithm is globally top-ranked by NIST in the FRVT 1:1 leaderboards. <span><img src="https://github.com/kby-ai/.github/assets/125717930/bcf351c5-8b7a-496e-a8f9-c236eb8ad59e" alt="badge" width="36" height="20"></span>  
-[Latest NIST FRVT evaluation report 2024-12-20](https://pages.nist.gov/frvt/html/frvt11.html)  
-
-![FRVT Sheet](https://github.com/user-attachments/assets/16b4cee2-3a91-453f-94e0-9e81262393d7)
-
-#### 🆔 ID Document Liveness Detection - Linux - [Here](https://web.kby-ai.com)  <span><img src="https://github.com/kby-ai/.github/assets/125717930/bcf351c5-8b7a-496e-a8f9-c236eb8ad59e" alt="badge" width="36" height="20"></span>
-#### 🤗 Hugging Face - [Here](https://huggingface.co/kby-ai)
-#### 📚 Product & Resources - [Here](https://github.com/kby-ai/Product)
-#### 🛟 Help Center - [Here](https://docs.kby-ai.com)
-#### 💼 KYC Verification Demo - [Here](https://github.com/kby-ai/KYC-Verification-Demo-Android)
-#### 🙋‍♀️ Docker Hub - [Here](https://hub.docker.com/u/kbyai)
-
 # FaceRecognition-Android
-<p align="left">Real-time face recognition with 99.9% accuracy | Liveness detection | Android-optimized</p>
+<p align="left">Real-time face recognition with 99.9% accuracy | Face liveness detection | Android-optimized</p>
 
 ## ✨ Key Features  
 - `Real-time processing` under 200ms latency
@@ -29,6 +17,19 @@
 - Compliant with ISO/IEC 30107-1 biometric standards  
 
 - All data processed locally (no cloud transmission)
+
+
+### Our facial recognition algorithm is globally top-ranked by NIST in the FRVT 1:1 leaderboards. <span><img src="https://github.com/kby-ai/.github/assets/125717930/bcf351c5-8b7a-496e-a8f9-c236eb8ad59e" alt="badge" width="36" height="20"></span>  
+[Latest NIST FRVT evaluation report 2024-12-20](https://pages.nist.gov/frvt/html/frvt11.html)  
+
+![FRVT Sheet](https://github.com/user-attachments/assets/16b4cee2-3a91-453f-94e0-9e81262393d7)
+
+#### 🆔 ID Document Liveness Detection - Linux - [Here](https://web.kby-ai.com)  <span><img src="https://github.com/kby-ai/.github/assets/125717930/bcf351c5-8b7a-496e-a8f9-c236eb8ad59e" alt="badge" width="36" height="20"></span>
+#### 🤗 Hugging Face - [Here](https://huggingface.co/kby-ai)
+#### 📚 Product & Resources - [Here](https://github.com/kby-ai/Product)
+#### 🛟 Help Center - [Here](https://docs.kby-ai.com)
+#### 💼 KYC Verification Demo - [Here](https://github.com/kby-ai/KYC-Verification-Demo-Android)
+#### 🙋‍♀️ Docker Hub - [Here](https://hub.docker.com/u/kbyai)
 
 ## Overview
 
