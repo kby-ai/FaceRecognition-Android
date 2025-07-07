@@ -5,14 +5,14 @@ plugins {
 
 android {
     namespace 'com.kbyai.facerecognition'
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         applicationId "com.kbyai.facerecognition"
         minSdk 24
-        targetSdk 34
-        versionCode 8
-        versionName "1.7"
+        targetSdk 35
+        versionCode 10
+        versionName "1.9"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
